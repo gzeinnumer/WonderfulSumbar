@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sarah.labp2komp8.wonderfulsumbar" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_sumbar"
+            android:label="@string/title_activity_activity_sumbar" >
+        </activity>
+        <activity
+            android:name=".sumbar"
+            android:label="@string/title_activity_sumbar" >
+        </activity>
+        <activity
+            android:name=".wisata"
+            android:label="@string/title_activity_wisata" >
+        </activity>
+        <activity
+            android:name=".ListWisata"
+            android:label="@string/title_activity_list_wisata" >
+        </activity>
+        <activity
+            android:name=".SimulasiBiaya"
+            android:label="@string/title_activity_simulasi_biaya" >
+        </activity>
+    </application>
+
+</manifest>

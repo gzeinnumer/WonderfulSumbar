@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WonderfulSumbar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_sumbar">Sumbar</string>
+    <string name="title_activity_wisata">Wisata</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_biaya">Biaya</string>
+    <string name="title_activity_slide_adapter">SlideAdapter</string>
+    <string name="title_activity_gambar1">Gambar1</string>
+    <string name="title_activity_gambar2">Gambar2</string>
+    <string name="title_activity_gambar3">Gambar3</string>
+    <string name="title_activity_gambar4">Gambar4</string>
+    <string name="title_activity_gambar5">Gambar5</string>
+    <string name="title_activity_pilihan_destinasi">Pilihan Destinasi</string>
+    <string name="title_activity_detail_jam">Detail Jam</string>
+    <string name="title_activity_lokasi_jam">Lokasi Jam Gadang</string>
+    <string name="title_activity_lokasi_mandeh">Lokasi Mandeh</string>
+    <string name="title_activity_lokasi_mentawai">Lokasi Mentawai</string>
+    <string name="title_activity_lokasi_harau">Lokasi Harau</string>
+    <string name="title_activity_lokasi_kelok">Lokasi Kelok 9</string>
+    <string name="title_activity_lokasi_danau_singkarak">Lokasi Danau Singkarak</string>
+    <string name="title_activity_lokasi_danau_maninjau">Lokasi Danau Maninjau</string>
+    <string name="title_activity_detail_mandeh">Mandeh</string>
+    <string name="title_activity_detail_harau">Harau</string>
+    <string name="title_activity_detail_mentawai">Mentawai</string>
+    <string name="title_activity_detail_pasumpahan">Pasumpahan Island</string>
+    <string name="title_activity_lokasi_pasumpahan">Lokasi Pasumpahan</string>
+    <string name="title_activity_lokasi_pagaruyung">Lokasi Pagaruyung</string>
+    <string name="title_activity_lokasi_tabuik">Lokasi Tabuik</string>
+    <string name="title_activity_lokasi_pusako">Lokasi Pusako</string>
+    <string name="title_activity_lokasi_pariangan">Lokasi Pariangan</string>
+    <string name="title_activity_detail_kelok">Kelok 9</string>
+    <string name="title_activity_detail_singkarak">Singkarak</string>
+    <string name="title_activity_detail_maninjau">Maninjau</string>
+    <string name="title_activity_detail_pagaruyung">Pagaruyung</string>
+    <string name="title_activity_detail_tabuik">Tabuik</string>
+    <string name="title_activity_detail_pusako">Pusako</string>
+    <string name="title_activity_detail_pariangan">Pariangan</string>
+    <string name="title_activity_akomodasi_jam">Akomodasi di Jam Gadang</string>
+    <string name="title_activity_akomodasi_mandeh">Akomodasi di Mandeh</string>
+    <string name="title_activity_akomodasi_mentawai">Akomodasi di Mentawai</string>
+    <string name="title_activity_akomodasi_pasumpahan">Akomodasi di Pasumpahan</string>
+    <string name="title_activity_akomodasi_harau">Akomodasi di Harau</string>
+    <string name="title_activity_akomodasi_kelok">Akomodasi di Kelok 9</string>
+    <string name="title_activity_akomodasi_singkarak">Akomodasi di Danau Singkarak</string>
+    <string name="title_activity_akomodai_maninjau">Akomodai di Danau Maninjau</string>
+    <string name="title_activity_akomodasi_pagaruyuang">Akomodasi di Isatana Pagaruyung</string>
+    <string name="title_activity_akomodasi_tabuik">Akomodasi Sekitar Festival Tabuik</string>
+    <string name="title_activity_akomodasi_pusako">Akomodasi Sekitar Kerajinan Pandai Sikek</string>
+    <string name="title_activity_akomodasi_pariangan">Akomodasi di Nagari Pariangan</string>
+    <string name="title_activity_kuliner">Kuliner</string>
+    <string name="title_activity_pilihan_kuiner">Kuliner</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

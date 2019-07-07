@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sarah.labp2komp8.wonderfulsumbar.wisata">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar1"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".Wisata" >
+
+            <TextView
+                android:id="@+id/txt1"
+                android:text="MANDEH"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_below="@+id/txt1"
+                android:src="@drawable/mand"
+                android:scaleType="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:gravity="fill_vertical"
+                android:text="\tKawasan Wisata Mandeh merupakan kawasan wisata yang terletak di Kecamatan Koto XI Tarusan, Pesisir Selatan yang berbatas langsung dengan Kota Padang. Kawasan ini hanya berjarak 56 km dari Padang dengan Luas ± 18.000 ha dan waktu tempuh sekitar 56 menit. Kawasan Wisata Mandeh melingkupi 7 kampung di 3 nagari yang dihuni oleh 9.931 jiwa penduduk dengan mata pencaharian bertani, berternak dan nelayan. Objek wisata kawasan Mandeh (Mandeh Resort) sudah dikenal baik tingkat nasional maupun Internasional dengan adanya investasi asing (Italia), mengembangkan resort wisata yang dikenal dengan Cubadak Paradiso"
+                android:textSize="12dp"
+                android:layout_below="@+id/image1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:text="JAM GADANG"
+                android:textSize="20dp"
+                android:layout_below="@+id/txt2"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_below="@+id/txt3"
+                android:src="@drawable/gdang"
+                android:scaleType="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:text="\tJam Gadang adalah nama untuk menara jam yang terletak di pusat kota Bukittinggi, Sumatera Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti jam besar.Selain sebagai pusat penanda kota Bukittinggi, Jam Gadang juga telah dijadikan sebagai objek wisata dengan diperluasnya taman di sekitar menara jam ini. Taman tersebut menjadi ruang interaksi masyarakat baik di hari kerja maupun di hari libur. Acara-acara yang sifatnya umum biasanya diselenggarakan di sekitar taman dekat menara jam ini."
+                android:textSize="12dp"
+                android:layout_below="@+id/image2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+            <TextView
+                android:id="@+id/txt5"
+                android:text="LEMBAH HARAU"
+                android:textSize="20dp"
+                android:layout_below="@+id/txt4"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_below="@+id/txt5"
+                android:src="@drawable/arau"
+                android:scaleType="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:text="\tLembah Harau adalah sebuah ngarai dekat kota Payakumbuh di kabupaten Limapuluh Koto, provinsi Sumatera Barat. Lembah Harau diapit dua bukit cadas terjal dengan ketinggian mencapai 150 meter berupa batu pasir yang terjal berwarna-warni, dengan ketinggian 100 sampai 500 meter. Topografi Cagar Alam Harau adalah berbukit-bukit dan bergelombang. Tinggi dari permukaan laut adalah 500 sampai 850 meter, bukit tersebut antara lain adalah Bukit Air Putih, Bukit Jambu, Bukit Singkarak dan Bukit Tarantang."
+                android:textSize="12dp"
+                android:layout_below="@+id/image3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

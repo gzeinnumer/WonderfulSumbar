@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/putih"
+    tools:context=".PilihanDestinasi" >
+
+     <TextView
+        
+        android:id="@+id/judul"
+        android:text="bcdvh"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <LinearLayout 
+        android:id="@+id/layout1"
+        android:layout_below="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/putih">
+     <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dip"
+         />
+ 
+    <LinearLayout
+        android:id="@+id/image_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_below="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp" />
+    <ScrollView
+		android:layout_below="@+id/layout1"
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    
+        <RelativeLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+		
+        android:id="@+id/detail"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:drawableRight="@drawable/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail"
+        android:background="@color/putih"
+        android:textSize="20dp"
+        android:layout_alignRight="@+id/gambar"
+        android:text="" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

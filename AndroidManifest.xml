@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wonderfulsumbar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Windi Sri Rahayu_1014"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.wonderfulsumbar.Splash"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.MainActivity"
+            android:label="Wonderfull Sumbar" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Sumbar"
+            android:label="\t Sumatera Barat"
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Wisata"
+            android:label="\t Wisata Unggulan"
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity"
+             >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.List"
+            android:label="\t Destinasi Wisata"
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Biaya"
+            android:label="\t Jalur Transportasi" 
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity">
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.SlideAdapter"
+            android:label="@string/title_activity_slide_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Gambar1"
+            android:label="@string/title_activity_gambar1" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Gambar2"
+            android:label="@string/title_activity_gambar2" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Gambar3"
+            android:label="@string/title_activity_gambar3" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Gambar4"
+            android:label="@string/title_activity_gambar4" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Gambar5"
+            android:label="@string/title_activity_gambar5" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.PilihanDestinasi"
+            android:label="@string/title_activity_pilihan_destinasi"
+            android:parentActivityName="com.example.wonderfulsumbar.List" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailJam"
+            android:label="@string/title_activity_detail_jam" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiJam"
+            android:label="@string/title_activity_lokasi_jam" 
+           >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiMandeh"
+            android:label="@string/title_activity_lokasi_mandeh" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiMentawai"
+            android:label="@string/title_activity_lokasi_mentawai" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiHarau"
+            android:label="@string/title_activity_lokasi_harau"
+           > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiKelok"
+            android:label="@string/title_activity_lokasi_kelok"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiDanauSingkarak"
+            android:label="@string/title_activity_lokasi_danau_singkarak"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiDanauManinjau"
+            android:label="@string/title_activity_lokasi_danau_maninjau" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailMandeh"
+            android:label="@string/title_activity_detail_mandeh" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailHarau"
+            android:label="@string/title_activity_detail_harau" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailMentawai"
+            android:label="@string/title_activity_detail_mentawai"
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailPasumpahan"
+            android:label="@string/title_activity_detail_pasumpahan" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiPasumpahan"
+            android:label="@string/title_activity_lokasi_pasumpahan" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiPagaruyung"
+            android:label="@string/title_activity_lokasi_pagaruyung"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiTabuik"
+            android:label="@string/title_activity_lokasi_tabuik"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiPusako"
+            android:label="@string/title_activity_lokasi_pusako"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.LokasiPariangan"
+            android:label="@string/title_activity_lokasi_pariangan"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailKelok"
+            android:label="@string/title_activity_detail_kelok" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailSingkarak"
+            android:label="@string/title_activity_detail_singkarak"
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailManinjau"
+            android:label="@string/title_activity_detail_maninjau"
+           >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailPagaruyung"
+            android:label="@string/title_activity_detail_pagaruyung" 
+           >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailTabuik"
+            android:label="@string/title_activity_detail_tabuik" 
+           >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailPusako"
+            android:label="@string/title_activity_detail_pusako" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.DetailPariangan"
+            android:label="@string/title_activity_detail_pariangan"
+             >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiJam"
+            android:label="@string/title_activity_akomodasi_jam" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiMandeh"
+            android:label="@string/title_activity_akomodasi_mandeh" 
+           >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiMentawai"
+            android:label="@string/title_activity_akomodasi_mentawai" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiPasumpahan"
+            android:label="@string/title_activity_akomodasi_pasumpahan" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiHarau"
+            android:label="@string/title_activity_akomodasi_harau"
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiKelok"
+            android:label="@string/title_activity_akomodasi_kelok" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiSingkarak"
+            android:label="@string/title_activity_akomodasi_singkarak" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodaiManinjau"
+            android:label="@string/title_activity_akomodai_maninjau" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiPagaruyuang"
+            android:label="@string/title_activity_akomodasi_pagaruyuang"
+            > 
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiTabuik"
+            android:label="@string/title_activity_akomodasi_tabuik" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiPusako"
+            android:label="@string/title_activity_akomodasi_pusako" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.AkomodasiPariangan"
+            android:label="@string/title_activity_akomodasi_pariangan"
+            >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.Kuliner"
+            android:label="\t Kuliner"
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.PilihanKuiner"
+            android:label="\t Pilihan Kuliner"
+            android:parentActivityName="com.example.wonderfulsumbar.Kuliner" >
+        </activity>
+        <activity
+            android:name="com.example.wonderfulsumbar.About"
+            android:label="\t About"
+            android:parentActivityName="com.example.wonderfulsumbar.MainActivity" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>
